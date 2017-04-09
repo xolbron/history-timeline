@@ -10,10 +10,17 @@
 <body>
     <a-scene>
       
-      <!-- Ground The default is 75 by 75-->
+      <!-- The Grass-->
       <a-plane color="green" position="0 0 0" rotation="-90 0 0" width="100" height="100" ></a-plane>
-      <!--The Line-->
       
+      <!--My Name-->
+      <a-box postion="0 30 -30" color="white" width="10" height="10" depth="1" src="title-history.png"></a-box>
+      
+      <!--The Line-->
+      <a-box color="black"
+             width="75" height="1" depth="2"
+             position="0 15 -36"
+             static-body></a-box>
       
       <!-- Walls -->
       <a-box color="grey"
@@ -21,19 +28,19 @@
              position="0 1 -36.5"
              static-body></a-box>
       <a-box color="gold"
-      opacity=".95"
+      opacity="1"
              width="75" height="62" depth="2"
              position="0 1 36.5"
              static-body></a-box>
       <a-box color="gold"
-      opacity=".95"
+      opacity="1"
              width="2" height="62" depth="71"
-             position="36.5 1 0"
+             position="38.5 1 0"
              static-body></a-box>
       <a-box color="yellow"
-      opacity=".95"
+      opacity="1"
              width="2" height="62" depth="71"
-             position="-36.5 1 0"
+             position="-38.5 1 0"
              static-body></a-box>
     <a-sky color="white" src="history-class-skybox.jpg"></a-sky>
 
